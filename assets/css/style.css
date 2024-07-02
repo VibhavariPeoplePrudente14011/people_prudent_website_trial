@@ -6873,7 +6873,15 @@ Go To Top Style
     /* Full viewport height */
     text-align: center;
     flex-direction: column;
-    background: linear-gradient(90deg, rgba(76, 158, 220, 0.75) 28.13%, rgba(255, 251, 251, 0) 100%);
+    /* background-color: transparent; */
+    background-image: linear-gradient(180deg, var( --e-global-color-308e809 ) 0%, var( --e-global-color-a291686 ) 100%);
+    background-image: url("https://show.moxcreative.com/careera/wp-content/uploads/sites/22/2021/11/background_header.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.1;
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+    /* background: linear-gradient(90deg, rgba(76, 158, 220, 0.75) 28.13%, rgba(255, 251, 251, 0) 100%); */
     /* Set the background gradient */
 }
 

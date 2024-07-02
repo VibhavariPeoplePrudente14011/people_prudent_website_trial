@@ -24,7 +24,7 @@
 
         $.ajax({
             type: "POST",
-            url: "assets/php/form-process.php",
+            url: "/assets/php/contact_form.php",
             data: "name=" + name + "&email=" + email + "&msg_subject=" + msg_subject + "&phone_number=" + phone_number + "&message=" + message + "&gridCheck=" + gridCheck,
             success: function(statustxt) {
                 if (statustxt == "success") {

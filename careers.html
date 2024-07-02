@@ -5,7 +5,6 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="assets/css/style.css"> <!-- Ensure this path is correct -->
-  <!-- <script src="https://smtpjs.com/v3/smtp.js"></script> -->
 
   <head>
     <meta charset="UTF-8">
@@ -72,7 +71,8 @@
                     <a href="https://instagram.com/?lang=en" target="_blank"><i class="ri-instagram-line"></i></a>
                   </li>
                   <li>
-                    <a href="https://linkedin.com/?lang=en" target="_blank"><i class="ri-linkedin-line"></i></a>
+                    <a href="https://www.linkedin.com/company/people-prudent-consulting-hr-solutions-private-limited/"
+                      target="_blank"><i class="ri-linkedin-line"></i></a>
                   </li>
                 </ul>
               </div>
@@ -106,15 +106,11 @@
             <div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
               <ul class="navbar-nav">
                 <li class="nav-item">
-                  <a href="index.html"  class="nav-link"> Home </a>
+                  <a href="index.html" class="nav-link"> Home </a>
                 </li>
 
                 <li class="nav-item">
                   <a href="our_services.html" class="nav-link"> Our Services </a>
-                </li>
-
-                <li class="nav-item">
-                  <a href="meet_our_team.html" class="nav-link"> Meet Our Team </a>
                 </li>
 
                 <li class="nav-item">
@@ -157,14 +153,6 @@
       <div class="container">
         <div class="inner_text">
           <h2>Careers</h2>
-          <div class="brad_crumbs">
-            <ul>
-              <li>
-                <a href="index.html">Home</a>
-              </li>
-              <li>| Careers</li>
-            </ul>
-          </div>
         </div>
       </div>
     </div>
@@ -176,24 +164,28 @@
       <div class="container">
         <div class="section-title">
           <h1>Welcome to Our Career's Page</h1>
-        <h4>Join our team and help us make a difference.</h4>
+          <h4>Join our team and help us make a difference.</h4>
+        </div>
       </div>
-    </div>
     </div>
     <div class="job-listings">
       <div class="container">
         <h5>Are you seeking to develop your career and fulfill your ambitions?</h5><br>
-        <p>We at People Prudent believe in inspiring our employees to reach their full potential and become the best versions of themselves. Offering personal & professional growth as they progress on achieving organizational goals.<br><br>
+        <p>We at People Prudent believe in inspiring our employees to reach their full potential and become the best
+          versions of themselves - offering personal & professional growth as they progress on achieving organizational
+          goals.<br><br>
 
-          Through our focused internship program PPYM IAT (Ignite-Advance-Thrive), we take pride in nurturing future talent from educational institutes of repute.<br><br>
+          Through our focused internship program PPYM IAT (Ignite-Advance-Thrive), we take pride in nurturing future
+          talent from educational institutes of repute.<br><br>
 
-          We are always eager to connect with professionals who share our passion for Human Resources Management, in the following areas:<br></p>
-          <ol>
-            <li>HR Consulting</li><br>
-            <li>HR Analytics</li><br>
-            <li>HR Information Systems</li><br>
-          </ol>
-          <p>
+          We are always eager to connect with professionals who share our passion for Human Resources Management in the
+          following areas:<br></p>
+        <ol>
+          <li>HR Consulting</li><br>
+          <li>HR Analytics</li><br>
+          <li>HR Information Systems</li><br>
+        </ol>
+        <p>
           Therefore, if you believe that you would be a good fit at People Prudent, we would love to hear from you
           through the online form below.
         </p>
@@ -206,8 +198,7 @@
             <p role="status" aria-live="polite" aria-atomic="true"></p>
             <ul></ul>
           </div>
-          <!-- <form action="https://formsubmit.co/vibhavari.p@peopleprudent.co.in" method="POST"> -->
-            <form action="upload.php" method="POST" enctype="multipart/form-data">
+          <form id="careerForm" action="career_form.php" method="post" enctype="multipart/form-data">
             <div style="display:none;">
               <input type="hidden" name="_wpcf7" value="5" />
               <input type="hidden" name="_wpcf7_version" value="5.5.3" />
@@ -220,27 +211,37 @@
             <div class="row nitro-lazy">
               <div class="col-md-6">
                 <span class="wpcf7-form-control-wrap Firstname">
-                  <input type="text" name="Firstname" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="Name*" />
+                  <input type="text" name="Firstname" value="" size="40"
+                    class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true"
+                    aria-invalid="false" placeholder="Name*" />
                 </span>
               </div>
               <div class="col-md-6">
                 <span class="wpcf7-form-control-wrap Position">
-                  <input type="text" name="Position" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="Position Applying for*" />
+                  <input type="text" name="Position" value="" size="40"
+                    class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true"
+                    aria-invalid="false" placeholder="Position Applying for*" />
                 </span>
               </div>
               <div class="col-md-6">
                 <span class="wpcf7-form-control-wrap file-808">
-                  <input type="file" name="file-808" size="40" class="wpcf7-form-control wpcf7-file wpcf7-validates-as-required" accept=".gif,.png,.jpg,.jpeg,.Doc,.pdf,.xls" aria-required="true" aria-invalid="false" />
+                  <input type="file" name="file-808" size="40"
+                    class="wpcf7-form-control wpcf7-file wpcf7-validates-as-required" accept=".pdf,.doc,.docx"
+                    aria-required="true" aria-invalid="false" />
                 </span>
               </div>
               <div class="col-md-6">
                 <span class="wpcf7-form-control-wrap email">
-                  <input type="email" id="email" name="email" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email" aria-required="true" aria-invalid="false" placeholder="Email*" />
+                  <input type="email" id="email" name="email" value="" size="40"
+                    class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email"
+                    aria-required="true" aria-invalid="false" placeholder="Email*" />
                 </span>
               </div>
               <div class="col-md-12">
                 <span class="wpcf7-form-control-wrap Phone">
-                  <input type="text" name="Phone" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="Phone Number*" />
+                  <input type="text" name="Phone" value="" size="40"
+                    class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true"
+                    aria-invalid="false" placeholder="Phone Number*" />
                 </span>
               </div>
               <div class="col-md-12 text-left"></div>
@@ -257,203 +258,197 @@
             </p>
             <div class="wpcf7-response-output" aria-hidden="true"></div>
           </form>
+          <!-- Script to handle form submission and alert -->
+          <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+          <script>
+            $(document).ready(function () {
+              $('#careerForm').on('submit', function (event) {
+                event.preventDefault(); // Prevent the default form submission
+
+                var formData = new FormData(this);
+
+                $.ajax({
+                  url: 'career_form.php',
+                  type: 'POST',
+                  data: formData,
+                  processData: false, // Tell jQuery not to process the dataa
+                  contentType: false, // Tell jQuery not to set contentType
+                  success: function (response) {
+                    // Check if response contains success parameter
+                    if (response.trim() === 'success') {
+                      alert('Your career form has been submitted successfully.');
+                      // Reset the form
+                      $('#careerForm')[0].reset();
+                    } else {
+                      alert('Error submitting form.');
+                    }
+                  },
+                  error: function (xhr, status, error) {
+                    alert('An error occurred: ' + error);
+                  }
+                });
+              });
+            });
+          </script>
         </div>
       </div>
     </div>
   </main>
 
-    <!--Start Footer Area-->
-    <div class="start-footer-area pt-100 pb-70">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-4 col-sm-4">
-            <div class="single-footer-widget footer-logo-area">
-              <a href="index.html"><img src="assets/images/people-prudent-logo_dark.png" alt="Logo" /></a>
-              <div class="social-content">
-                <ul>
-                  <li>
-                    <span>Follow Us</span>
-                  </li>
-                  <li>
-                    <a href="https://www.facebook.com" target="_blank"><i class="ri-facebook-line"></i></a>
-                  </li>
-                  <li>
-                    <a href="https://www.twitter.com" target="_blank"><i class="ri-twitter-line"></i></a>
-                  </li>
-                  <li>
-                    <a href="https://instagram.com/?lang=en" target="_blank"><i class="ri-instagram-line"></i></a>
-                  </li>
-                  <li>
-                    <a href="https://linkedin.com/?lang=en" target="_blank"><i class="ri-linkedin-line"></i></a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-sm-4">
-            <div class="single-footer-widget footer-address-area">
-              <h3>Address Information</h3>
+  <!--Start Footer Area-->
+  <div class="start-footer-area pt-100 pb-70">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 col-sm-4">
+          <div class="single-footer-widget footer-logo-area">
+            <a href="index.html"><img src="assets/images/people-prudent-logo_dark.png" alt="Logo" /></a>
+            <div class="social-content">
               <ul>
                 <li>
-                  <div class="icon">
-                    <i class="flaticon-phone-call-1"></i>
-                  </div>
-                  <p>Call Us Now</p>
-                  <a href="tel:+91 9209406439">+91 9209406439</a>
+                  <span>Follow Us</span>
                 </li>
                 <li>
-                  <div class="icon">
-                    <i class="flaticon-mail"></i>
-                  </div>
-                  <p>Email Address</p>
-                  <i class="fas fa-envelope"></i>
-                  <a href="mailto:info@peopleprudent.co.in"><span>info@peopleprudent.co.in</span></a>
+                  <a href="https://www.facebook.com" target="_blank"><i class="ri-facebook-line"></i></a>
                 </li>
                 <li>
-                  <div class="icon">
-                    <i class="flaticon-place"></i>
-                  </div>
-                  <p>Address</p>
-                  <span>405, 4th Floor, LMS Finswell, Sakore Nagar,<br>Viman Nagar, Pune-411014</span>
+                  <a href="https://www.twitter.com" target="_blank"><i class="ri-twitter-line"></i></a>
+                </li>
+                <li>
+                  <a href="https://instagram.com/?lang=en" target="_blank"><i class="ri-instagram-line"></i></a>
+                </li>
+                <li>
+                  <a href="https://www.linkedin.com/company/people-prudent-consulting-hr-solutions-private-limited/"
+                    target="_blank"><i class="ri-linkedin-line"></i></a>
                 </li>
               </ul>
             </div>
           </div>
-          <div class="col-lg-4 col-sm-4">
-            <div class="single-footer-widget footer-useful-links-area pl-20">
-              <h3>Quick Links</h3>
-              <div class="link-list">
-                <ul>
-                  <li>
-                    <i class="ri-arrow-right-s-line"></i>
-                    <a href="index.html"> Home </a>
-                  </li>
-                  <li>
-                    <i class="ri-arrow-right-s-line"></i>
-                    <a href="our_services.html"> Our sevices </a>
-                  </li>
-                  <li>
-                    <i class="ri-arrow-right-s-line"></i>
-                    <a href="meet_our_team.html"> Meet our team </a>
-                  </li>
-                  <li>
-                    <i class="ri-arrow-right-s-line"></i>
-                    <a href="our_clients.html"> Our Clients </a>
-                  </li>
-                  <li>
-                    <i class="ri-arrow-right-s-line"></i>
-                    <a href="https://peopleprudent.com/insights/"> Insights </a>
-                  </li>
-                  <li>
-                    <i class="ri-arrow-right-s-line"></i>
-                    <a href="https://peopleprudent.com/resources/"> Resources </a>
-                  </li>
-                  <li>
-                    <i class="ri-arrow-right-s-line"></i>
-                    <a href="CenterOfExcellence.html"> Center Of Excellence </a>
-                  </li>
-                  <li>
-                    <i class="ri-arrow-right-s-line"></i>
-                    <a href="https://peopleprudent.com/news/"> News </a>
-                  </li>
-                  <li>
-                    <i class="ri-arrow-right-s-line"></i>
-                    <a href="careers.html"> Careers </a>
-                  </li>
-                  <li>
-                    <i class="ri-arrow-right-s-line"></i>
-                    <a href="contact_us.html"> Contact us </a>
-                  </li>
-                </ul>
-              </div>
+        </div>
+        <div class="col-lg-4 col-sm-4">
+          <div class="single-footer-widget footer-address-area">
+            <h3>Address Information</h3>
+            <ul>
+              <li>
+                <div class="icon">
+                  <i class="flaticon-phone-call-1"></i>
+                </div>
+                <p>Call Us Now</p>
+                <a href="tel:+91 9209406439">+91 9209406439</a>
+              </li>
+              <li>
+                <div class="icon">
+                  <i class="flaticon-mail"></i>
+                </div>
+                <p>Email Address</p>
+                <i class="fas fa-envelope"></i>
+                <a href="mailto:info@peopleprudent.co.in"><span>info@peopleprudent.co.in</span></a>
+              </li>
+              <li>
+                <div class="icon">
+                  <i class="flaticon-place"></i>
+                </div>
+                <p>Address</p>
+                <span>405, 4th Floor, LMS Finswell, Sakore Nagar,<br>Viman Nagar, Pune-411014</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-4">
+          <div class="single-footer-widget footer-useful-links-area pl-20">
+            <h3>Quick Links</h3>
+            <div class="link-list">
+              <ul>
+                <li>
+                  <i class="ri-arrow-right-s-line"></i>
+                  <a href="index.html"> Home </a>
+                </li>
+                <li>
+                  <i class="ri-arrow-right-s-line"></i>
+                  <a href="our_services.html"> Our sevices </a>
+                </li>
+                <li>
+                  <i class="ri-arrow-right-s-line"></i>
+                  <a href="our_clients.html"> Our Clients </a>
+                </li>
+                <li>
+                  <i class="ri-arrow-right-s-line"></i>
+                  <a href="https://peopleprudent.com/insights/"> Insights </a>
+                </li>
+                <li>
+                  <i class="ri-arrow-right-s-line"></i>
+                  <a href="https://peopleprudent.com/resources/"> Resources </a>
+                </li>
+                <li>
+                  <i class="ri-arrow-right-s-line"></i>
+                  <a href="CenterOfExcellence.html"> Center Of Excellence </a>
+                </li>
+                <li>
+                  <i class="ri-arrow-right-s-line"></i>
+                  <a href="https://peopleprudent.com/news/"> News </a>
+                </li>
+                <li>
+                  <i class="ri-arrow-right-s-line"></i>
+                  <a href="careers.html"> Careers </a>
+                </li>
+                <li>
+                  <i class="ri-arrow-right-s-line"></i>
+                  <a href="contact_us.html"> Contact us </a>
+                </li>
+              </ul>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <!--End Footer Area-->
+  </div>
+  <!--End Footer Area-->
 
-    <!--Start Copy Right Area-->
-    <div class="copy-right-area">
-      <div class="container">
-        <p>
-          © <span>2024 PeoplePrudent</span> All Rights Reserved.
-        </p>
-      </div>
+  <!--Start Copy Right Area-->
+  <div class="copy-right-area">
+    <div class="container">
+      <p>
+        © <span>2024 PeoplePrudent</span> All Rights Reserved.
+      </p>
     </div>
-    <!--End Copy Right Area-->
+  </div>
+  <!--End Copy Right Area-->
 
-    <!-- Start Go Top Area -->
-    <div class="go-top">
-      <i class="ri-rocket-line"></i>
-      <i class="ri-rocket-line"></i>
-    </div>
-    <!-- End Go Top Area -->
+  <!-- Start Go Top Area -->
+  <div class="go-top">
+    <i class="ri-rocket-line"></i>
+    <i class="ri-rocket-line"></i>
+  </div>
+  <!-- End Go Top Area -->
 
-    <!-- Jquery js -->
-    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
-    <script src="assets/js/jquery.min.js"></script>
-    <!-- Bootstrap bundle js -->
-    <script src="assets/js/bootstrap.bundle.min.js"></script>
-    <!-- Meanmenu js -->
-    <script src="assets/js/jquery.meanmenu.js"></script>
-    <!-- Owl Carosel js -->
-    <script src="assets/js/owl.carousel.min.js"></script>
-    <!-- Magnific popup js -->
-    <script src="assets/js/jquery.magnific-popup.js"></script>
-    <!-- Aos js -->
-    <script src="assets/js/aos.js"></script>
-    <!-- Mixitup js -->
-    <script src="assets/js/mixitup.min.js"></script>
-    <!-- Odometer js -->
-    <script src="assets/js/odometer.min.js"></script>
-    <!-- Appear js -->
-    <script src="assets/js/appear.min.js"></script>
-    <!-- Form Validator js -->
-    <script src="assets/js/form-validator.min.js"></script>
-    <!-- Contact Form Script js -->
-    <script src="assets/js/contact-form-script.js"></script>
-    <!-- Ajaxchimp js -->
-    <script src="assets/js/ajaxchimp.min.js"></script>
-    <!--Custom js-->
-    <script src="assets/js/custom.js"></script>
-    <!--Script js-->
-    <script src="assets/js/script.js"></script>
+  <!-- Jquery js -->
+  <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+  <script src="assets/js/jquery.min.js"></script>
+  <!-- Bootstrap bundle js -->
+  <script src="assets/js/bootstrap.bundle.min.js"></script>
+  <!-- Meanmenu js -->
+  <script src="assets/js/jquery.meanmenu.js"></script>
+  <!-- Owl Carosel js -->
+  <script src="assets/js/owl.carousel.min.js"></script>
+  <!-- Magnific popup js -->
+  <script src="assets/js/jquery.magnific-popup.js"></script>
+  <!-- Aos js -->
+  <script src="assets/js/aos.js"></script>
+  <!-- Mixitup js -->
+  <script src="assets/js/mixitup.min.js"></script>
+  <!-- Odometer js -->
+  <script src="assets/js/odometer.min.js"></script>
+  <!-- Appear js -->
+  <script src="assets/js/appear.min.js"></script>
+  <!-- Form Validator js -->
+  <script src="assets/js/form-validator.min.js"></script>
+  <!-- Ajaxchimp js -->
+  <script src="assets/js/ajaxchimp.min.js"></script>
+  <!--Custom js-->
+  <script src="assets/js/custom.js"></script>
+  <!--Script js-->
+  <script src="assets/js/script.js"></script>
   <!--Script js-->
   <!-- <script src="assets/js/script.js"></script> -->
-
-
-  <!-- <script>
-    function sendEmail() {
-      // event.preventDefault(); // Prevent the default form submission
-
-      // const form = event.target; // Get the form element
-      // const formData = new FormData(form); // Get the form data
-
-      // const emailBody = `
-      // Name: ${formData.get('Firstname')}
-      //   Position Applying For: ${formData.get('Position')}
-      //   Email: ${formData.get('email')}
-      //   Phone Number: ${formData.get('Phone')}
-      // `;
-
-      Email.send({
-        Host: "smtp.gmail.com",
-        Username: "vibhapatil1798@gmail.com",
-        Password: "VibhaSuraj@1701",
-        To: "vibhapatil1798@gmail.com",
-        From: document.getElementById("email").value, // Get the sender's email from the form
-        Subject: "New Application Form",
-        // Body: emailBody
-      }).then(
-        message => alert("Application submitted sucsessfully "),
-        error => {
-        console.error("Failed to send email: ", error);
-        alert("Failed to send email: " + error);
-      }
-      );
-    }
-  </script> -->
 </body>
 
 </html>

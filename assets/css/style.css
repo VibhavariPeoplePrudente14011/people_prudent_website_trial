@@ -1614,7 +1614,7 @@ Banner Area Style
 /* Animated Heading 4 */
 .banner-content h4 {
     margin-top: 40%; /* Top margin */
-    margin-left: 40px; /* Left margin */
+    margin-left: 100px; /* Left margin */
     max-width: 80%; /* Maximum width */
     position: absolute; /* Absolute positioning */
     text-align: center; /* Center-align text */

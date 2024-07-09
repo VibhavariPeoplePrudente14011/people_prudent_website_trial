@@ -3837,6 +3837,7 @@ Team Style
     align-items: center;
     justify-content: center;
     place-items: center;
+    
 }
 
 .single-team-card .team-img {
@@ -3845,6 +3846,7 @@ Team Style
     -webkit-transition: all ease 1s;
     transition: all ease 1s;
     border: 1px solid black;
+    border-radius: 10px; /* Adjust the radius as needed */
 }
 
 .single-team-card .team-img img {
@@ -6635,6 +6637,7 @@ body {
     /* Make the video fill its container */
     object-fit: cover;
     /* Cover the entire container */
+    border-radius: 10px; /* Adjust the radius as needed */
 }
 
 
@@ -6652,6 +6655,7 @@ body {
     /* Bottom margin for service rows */
     padding: 20px;
     /* Padding inside service rows */
+    border-radius: 10px; /* Adjust the radius as needed */
 }
 
 .service-row .service-row-img-heading {
@@ -6711,7 +6715,14 @@ body {
     /* max-width: 1000px; */
     /* margin: auto auto 40px auto; */
     text-align: center;
+    
 }
+
+/* margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    place-items: center; */
 
 /* meet our team page ends here */
 

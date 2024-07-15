@@ -2063,10 +2063,11 @@ Banner Area Style
     margin-bottom: 20px;
     /* Bottom margin */
     z-index: 3;
+    text-shadow: 0 0 0.1px #ffffff, 0 0 20px #0000FF;
     /* Ensure it's above other elements */
-    background-image: linear-gradient(-225deg, #ffffff 0%, #ff7700 20%, #ff1361 40%, #8000ff 60%, #ff1361 80%, #fff800 100%);
+    /* background-image: linear-gradient(-225deg, #ffffff 0%, #ff7700 20%, #ff1361 40%, #8000ff 60%, #ff1361 80%, #fff800 100%); */
     /* Gradient background */
-    background-size: auto auto;
+    /* background-size: auto auto; */
     /* Auto background size */
     background-clip: border-box;
     /* Clip to border box */
